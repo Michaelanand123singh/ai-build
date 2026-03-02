@@ -14,7 +14,9 @@ export function HeroHeadline() {
             transition={{ duration: 0.7, ease: 'easeOut', delay: 0.1 }}
             className="text-center font-serif italic font-normal text-text-primary text-h1"
         >
-            {HERO_HEADLINE}
+            <span>From Idea</span>
+            <br className="sm:hidden" />
+            <span> to Reality</span>
         </motion.h1>
     )
 }
