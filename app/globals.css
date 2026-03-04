@@ -17,46 +17,46 @@
   --bg-muted: 220 20% 90%;
   /* #e2e7f2 — borders, dividers        */
 
-  /* ── Text System ─────────────────────────────────────── */
-  --text-primary: 225 45% 18%;
-  /* #1e2d52 — deep navy, main headings */
-  --text-secondary: 220 20% 35%;
-  /* #485070 — body text                */
-  --text-muted: 220 15% 55%;
-  /* #7a84a0 — captions, placeholders   */
-  --text-disabled: 220 10% 70%;
-  /* #a8afc2 — disabled states          */
+  /* ── Text System ───────────────────────────────────── */
+  --text-primary: 240 40% 16%;
+  /* #1a1f3d — deep indigo-navy headings */
+  --text-secondary: 235 22% 32%;
+  /* #414868 — body text                */
+  --text-muted: 230 18% 52%;
+  /* #6b7599 — captions, placeholders   */
+  --text-disabled: 230 12% 68%;
+  /* #a2a9be — disabled states          */
   --text-inverse: 0 0% 100%;
   /* #ffffff — on dark backgrounds      */
 
-  /* ── Brand Accent ────────────────────────────────────── */
-  --accent: 225 35% 52%;
-  /* #6b7db3 — the hero send button     */
-  --accent-hover: 225 35% 45%;
-  /* darker on hover                    */
-  --accent-subtle: 225 35% 95%;
-  /* #eef0f9 — light accent backgrounds */
-  --accent-border: 225 30% 80%;
-  /* #b8c0d8 — accent-tinted borders    */
+  /* ── Brand Accent — Vivid Indigo ──────────────────── */
+  --accent: 245 58% 56%;
+  /* #5b4ee8 — vibrant indigo primary   */
+  --accent-hover: 245 62% 48%;
+  /* #4a3cc7 — deeper on hover          */
+  --accent-subtle: 245 60% 96%;
+  /* #f0eefe — light accent backgrounds */
+  --accent-border: 245 45% 78%;
+  /* #a89de6 — accent-tinted borders    */
 
-  /* ── Surface Borders ─────────────────────────────────── */
-  --border: 220 25% 88%;
-  /* #dce2f0 — standard border          */
-  --border-strong: 220 25% 78%;
-  /* #bdc7e0 — emphasized border        */
-  --border-subtle: 220 25% 93%;
-  /* #eceff8 — very subtle border       */
+  /* ── Surface Borders ─────────────────────────────── */
+  --border: 235 22% 88%;
+  /* #dcdff0 — standard border          */
+  --border-strong: 235 22% 76%;
+  /* #b5bbe0 — emphasized border        */
+  --border-subtle: 235 22% 93%;
+  /* #eceef8 — very subtle border       */
 
-  /* ── Semantic ────────────────────────────────────────── */
-  --success: 152 45% 40%;
-  /* muted green                        */
-  --success-subtle: 152 45% 95%;
-  --warning: 38 80% 50%;
-  /* muted amber                        */
-  --warning-subtle: 38 80% 96%;
-  --error: 4 65% 50%;
-  /* muted red                          */
-  --error-subtle: 4 65% 96%;
+  /* ── Semantic ──────────────────────────────────── */
+  --success: 152 55% 42%;
+  /* vivid green                        */
+  --success-subtle: 152 55% 95%;
+  --warning: 38 90% 50%;
+  /* rich amber                         */
+  --warning-subtle: 38 90% 96%;
+  --error: 4 75% 50%;
+  /* strong red                         */
+  --error-subtle: 4 75% 96%;
 
   /* ── shadcn/ui Compatibility (Root Mapping) ──────────── */
   --background: var(--bg-page);
@@ -168,23 +168,24 @@
   --bg-subtle: 225 28% 13%;
   --bg-muted: 225 25% 16%;
 
-  --text-primary: 220 40% 92%;
-  /* #dde5f5 — near white headings      */
-  --text-secondary: 220 20% 70%;
-  /* #a0aaC0 — body text                */
-  --text-muted: 220 15% 50%;
-  /* #6e788f — muted text               */
-  --text-disabled: 220 10% 35%;
+  --text-primary: 240 35% 94%;
+  /* #e8ecf8 — warm near-white headings */
+  --text-secondary: 235 22% 72%;
+  /* #a5adc8 — body text                */
+  --text-muted: 230 18% 48%;
+  /* #636e8a — muted text               */
+  --text-disabled: 230 12% 32%;
 
-  --accent: 225 40% 62%;
-  /* slightly lighter in dark mode      */
-  --accent-hover: 225 40% 70%;
-  --accent-subtle: 225 40% 15%;
-  --accent-border: 225 35% 30%;
+  --accent: 245 55% 68%;
+  /* brighter indigo for dark bg        */
+  --accent-hover: 245 58% 75%;
+  /* vivid hover glow                   */
+  --accent-subtle: 245 45% 15%;
+  --accent-border: 245 40% 30%;
 
-  --border: 225 25% 18%;
-  --border-strong: 225 25% 25%;
-  --border-subtle: 225 25% 14%;
+  --border: 240 22% 18%;
+  --border-strong: 240 22% 26%;
+  --border-subtle: 240 22% 14%;
 
   --shadow-xs: 0 1px 2px 0 hsl(225 60% 4% / 0.3);
   --shadow-sm: 0 2px 4px 0 hsl(225 60% 4% / 0.4),
