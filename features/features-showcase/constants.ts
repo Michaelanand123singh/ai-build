@@ -47,7 +47,7 @@ export const PROBLEM_CARDS: ProblemCard[] = [
 ]
 
 export const PROBLEM_TRANSITION_UP = 'There is a better way.'
-export const PROBLEM_TRANSITION_DOWN = 'BuildAI is the only platform that takes you from idea to live website without a single configuration screen.'
+export const PROBLEM_TRANSITION_DOWN = 'Info Lab is the only platform that takes you from idea to live website without a single configuration screen.'
 
 export const FEATURES: Feature[] = [
     {
@@ -55,7 +55,7 @@ export const FEATURES: Feature[] = [
         icon: Brain,
         label: 'INTELLIGENCE',
         title: 'AI that understands your business, not just your prompt',
-        description: 'Most AI tools return the most statistically likely website. BuildAI learns your business type, brand voice, customer language, and preferences — then generates a site that actually fits. It remembers everything across every session, forever.',
+        description: 'Most AI tools return the most statistically likely website. Info Lab learns your business type, brand voice, customer language, and preferences — then generates a site that actually fits. It remembers everything across every session, forever.',
         size: 'large',
         visualType: 'chat',
     },

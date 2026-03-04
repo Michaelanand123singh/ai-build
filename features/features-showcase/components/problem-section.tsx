@@ -82,7 +82,7 @@ export function ProblemSection() {
                         animate={controls}
                         variants={fadeVariants}
                         custom={0.1}
-                        className="mt-4 font-bold text-text-primary"
+                        className="mt-4 font-bold text-text-primary text-h2"
                     >
                         {PROBLEM_HEADLINE}
                     </motion.h2>
@@ -101,26 +101,26 @@ export function ProblemSection() {
                             variants={cardVariants}
                             className="flex flex-col rounded-2xl border border-border bg-surface p-6 transition-all hover:shadow-md"
                         >
-                            <div className="flex items-center gap-x-3 text-text-primary">
+                            <div className="mb-6 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/10">
                                 <card.icon className="h-5 w-5 text-accent" />
-                                <h3 className="font-semibold text-h3">{card.title}</h3>
                             </div>
+                            <h3 className="mb-2 text-lg font-bold text-text-primary">{card.title}</h3>
 
                             {/* Promise Section */}
-                            <div className="mt-6 flex-1">
-                                <p className="text-sm font-medium text-success">
-                                    What they promise:
+                            <div className="mt-4 flex-1">
+                                <p className="text-xs font-bold tracking-wider text-success uppercase">
+                                    THE PROMISE
                                 </p>
-                                <p className="mt-2 text-text-secondary italic">&quot;{card.promise}&quot;</p>
+                                <p className="mt-2 text-sm text-text-secondary italic leading-relaxed">&quot;{card.promise}&quot;</p>
 
                                 {/* Animated Arrow */}
                                 <div className="my-6 flex justify-center">
-                                    <ChevronDown className="h-5 w-5 animate-bounce text-text-muted" />
+                                    <ChevronDown className="h-4 w-4 animate-bounce text-text-muted/50" />
                                 </div>
 
                                 {/* Reality Section */}
-                                <p className="text-sm font-medium text-error">
-                                    What actually happens:
+                                <p className="text-xs font-bold tracking-wider text-error uppercase">
+                                    THE REALITY
                                 </p>
                                 <ul className="mt-4 flex flex-col gap-3">
                                     {card.reality.map((item, i) => (
@@ -151,15 +151,15 @@ export function ProblemSection() {
                         initial="hidden"
                         className="flex flex-col items-center"
                     >
-                        <p className="text-lg text-text-secondary">{PROBLEM_TRANSITION_UP}</p>
+                        <p className="text-base font-medium text-text-secondary mb-2">{PROBLEM_TRANSITION_UP}</p>
                         <motion.div
                             animate={isReducedMotion ? {} : { y: [0, 8, 0] }}
                             transition={{ repeat: Infinity, duration: 2 }}
-                            className="mt-4"
+                            className="mb-8"
                         >
-                            <ArrowDown className="h-6 w-6 text-text-primary opacity-50" />
+                            <ArrowDown className="h-5 w-5 text-accent opacity-50" />
                         </motion.div>
-                        <h3 className="mt-6 max-w-2xl font-bold text-text-primary">
+                        <h3 className="max-w-3xl font-bold text-text-primary text-h3">
                             {PROBLEM_TRANSITION_DOWN}
                         </h3>
                     </motion.div>

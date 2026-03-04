@@ -38,7 +38,7 @@ export function HowItWorksSection() {
                         <div className="lg:sticky lg:top-32 lg:max-h-screen">
                             <div className="mb-12">
                                 <span className="text-xs font-bold uppercase tracking-widest text-text-muted">Steps</span>
-                                <h2 className="mt-4 font-bold text-text-primary text-h2">How BuildAI launches you</h2>
+                                <h2 className="mt-4 font-bold text-text-primary text-h2">How Info Lab launches you</h2>
                             </div>
 
                             <StepList

@@ -12,7 +12,7 @@ export const HOW_IT_WORKS_STEPS: Step[] = [
     {
         id: 1,
         title: 'AI builds everything',
-        description: 'In under 10 minutes, BuildAI generates your complete site — frontend, backend, database, payments, and custom admin panel.',
+        description: 'In under 10 minutes, Info Lab generates your complete site — frontend, backend, database, payments, and custom admin panel.',
         tag: 'Typically 8–12 minutes',
         icon: Zap,
     },

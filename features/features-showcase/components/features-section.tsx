@@ -10,7 +10,7 @@ export function FeaturesSection() {
                         Everything you need to launch.
                     </h2>
                     <p className="mt-4 max-w-2xl text-lg text-text-secondary">
-                        BuildAI isn&apos;t just a landing page generator. It&apos;s a full-stack engine
+                        Info Lab isn&apos;t just a landing page generator. It&apos;s a full-stack engine
                         that provisions your entire infrastructure and handles the complex
                         logic automatically.
                     </p>

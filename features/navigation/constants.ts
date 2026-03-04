@@ -11,5 +11,5 @@ export const NAV_LINKS = [
     { label: 'Changelog', href: '/changelog' },
 ] as const
 
-export const SIGN_IN_HREF = 'https://app.buildai.com/sign-in'
-export const SIGN_UP_HREF = 'https://app.buildai.com/sign-up'
+export const SIGN_IN_HREF = 'https://app.infolab.ai/sign-in'
+export const SIGN_UP_HREF = 'https://app.infolab.ai/sign-up'

@@ -1,11 +1,11 @@
 export const siteConfig = {
-    name: "Devxaai",
-    url: "https://devxaai.com",
+    name: "Info Lab",
+    url: "https://infolab.ai",
     description: "From Prompt to Product. Instantly build fully working web applications with AI.",
-    ogImage: "https://devxaai.com/og.jpg",
+    ogImage: "https://infolab.ai/og.jpg",
     links: {
-        twitter: "https://twitter.com/devxaai",
-        github: "https://github.com/devxaai",
+        twitter: "https://twitter.com/infolab_ai",
+        github: "https://github.com/infolab-ai",
     },
 }
 
